@@ -1,17 +1,32 @@
-.navigation {
+header {
+    border-color: gold;
+    border-width: thick;
+    border-style: groove;
+}
 
+.navigation {
+    font-family: 'Arial', "Helvetica Nue", Helvetica, sans-serif;
+    border-color: hotpink;
+    border-width: thick;
+    border-style: double;
 }
 
 .about-nav {
-
+    border-color: lawngreen;
+    border-width: thick;
+    border-style: solid;
 }
 
 .portfolio-nav {
-
+    border-color: skyblue;
+    border-width: thick;
+    border-style: dashed;
 }
 
 .contact-nav {
-
+    border-color: black;
+    border-width: thick;
+    border-style: dotted;
 }
 
 .main-heading {
@@ -20,6 +35,7 @@
     border-color: purple;
     border-width: thick;
     border-style: dashed;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -28,6 +44,7 @@ h2 {
     border-color: red;
     border-width: thick;
     border-style: solid;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .main-content {
@@ -35,4 +52,5 @@ h2 {
     border-color: green;
     border-width: thick;
     border-style: dotted;
+    font-family: 'Arial', "Helvetica Nue", Helvetica, sans-serif;
 }
