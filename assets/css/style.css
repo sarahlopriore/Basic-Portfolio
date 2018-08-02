@@ -1,0 +1,38 @@
+.navigation {
+
+}
+
+.about-nav {
+
+}
+
+.portfolio-nav {
+
+}
+
+.contact-nav {
+
+}
+
+.main-heading {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: purple;
+    border-width: thick;
+    border-style: dashed;
+}
+
+h2 {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    border-color: red;
+    border-width: thick;
+    border-style: solid;
+}
+
+.main-content {
+    background-color: #ffffff;
+    border-color: green;
+    border-width: thick;
+    border-style: dotted;
+}
