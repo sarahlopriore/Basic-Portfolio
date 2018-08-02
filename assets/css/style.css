@@ -54,3 +54,15 @@ h2 {
     border-style: dotted;
     font-family: 'Arial', "Helvetica Nue", Helvetica, sans-serif;
 }
+
+.profile-image {
+    border-color: maroon;
+    border-width: thick;
+    border-style: inset;
+}
+
+.aboutme-info {
+    border-color: plum;
+    border-width: thick;
+    border-style: outset;
+}
