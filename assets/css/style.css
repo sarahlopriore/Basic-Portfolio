@@ -1,7 +1,13 @@
+* {
+    text-decoration: none;
+}
+
 header {
     border-color: gold;
     border-width: thick;
     border-style: groove;
+    background-color: #ffffff;
+    margin: auto;
 }
 
 .navigation {
@@ -9,25 +15,30 @@ header {
     border-color: hotpink;
     border-width: thick;
     border-style: double;
-}
-
-.about-nav {
-    border-color: lawngreen;
-    border-width: thick;
-    border-style: solid;
-}
-
-.portfolio-nav {
-    border-color: skyblue;
-    border-width: thick;
-    border-style: dashed;
+    float: right;
 }
 
 .contact-nav {
     border-color: black;
     border-width: thick;
     border-style: dotted;
+    float: right;
 }
+
+.portfolio-nav {
+    border-color: skyblue;
+    border-width: thick;
+    border-style: dashed;
+    float: right;
+}
+
+.about-nav {
+    border-color: lawngreen;
+    border-width: thick;
+    border-style: solid;
+    float: right;
+}
+
 
 .main-heading {
     background-color: #4aaaa5;
@@ -36,6 +47,8 @@ header {
     border-width: thick;
     border-style: dashed;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float: left;
+    text-align: center;
 }
 
 h2 {
@@ -45,6 +58,7 @@ h2 {
     border-width: thick;
     border-style: solid;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    clear: both;
 }
 
 .main-content {
@@ -53,12 +67,14 @@ h2 {
     border-width: thick;
     border-style: dotted;
     font-family: 'Arial', "Helvetica Nue", Helvetica, sans-serif;
+    clear: both;
 }
 
 .profile-image {
     border-color: maroon;
     border-width: thick;
     border-style: inset;
+    float: left;
 }
 
 .aboutme-info {
