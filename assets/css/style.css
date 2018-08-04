@@ -23,32 +23,22 @@ header {
 
 .navigation {
     font-family: 'Arial', "Helvetica Nue", Helvetica, sans-serif;
-    border-color: hotpink;
-    border-width: thick;
-    border-style: double;
     float: right;
     margin-top: 80px;
     color: #777777;
 }
 
 .contact-nav {
-    border-color: black;
-    border-width: thick;
-    border-style: dotted;
     float: right;
 }
 
 .portfolio-nav {
-    border-color: skyblue;
-    border-width: thick;
-    border-style: dashed;
     float: right;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .about-nav {
-    border-color: lawngreen;
-    border-width: thick;
-    border-style: solid;
     float: right;
 }
 
@@ -56,9 +46,6 @@ header {
 .main-heading {
     background-color: #4aaaa5;
     color: #ffffff;
-    border-color: purple;
-    border-width: thick;
-    border-style: dashed;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     float: left;
     padding: 15px;
@@ -87,21 +74,20 @@ h2 {
     margin-top: 25px;
     min-height: calc(100vh - 70px);
     color: #777777;
+    padding: 20px;
 }
 
 .profile-image {
-    border-color: maroon;
-    border-width: thick;
-    border-style: inset;
     float: left;
     height: 30%;
     width: 30%;
+    padding-right: 20px;
 }
 
 .aboutme-info {
-    border-color: plum;
-    border-width: thick;
-    border-style: outset;
+    line-height: 30px;
+    color: #777777;
+    text-indent: 20px;
 }
 
 .portfolio-image {
@@ -123,8 +109,8 @@ h2 {
 .img-div {
     position: relative;
     float: left;
-    margin-bottom: 20px;
-    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right: 30px;
 }
 
 .row2 {
@@ -143,11 +129,11 @@ footer {
 
 .textbox {
     margin: auto;
-    padding-left: 735px;
+    padding-left: 770px;
+    margin-bottom: 15px;
 }
 
 form {
-    margin-left: 25px;
     color: #777777;
 }
 
@@ -157,4 +143,14 @@ a:visited {
 
 a:hover {
     color: #777777;
+}
+
+.submit-button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
