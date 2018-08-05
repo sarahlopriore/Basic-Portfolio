@@ -103,7 +103,7 @@ h2 {
     position: absolute;
     bottom: 15px;
     width: 250px;
-    
+    font-size: 20px;
 }
 
 .img-div {
@@ -153,5 +153,5 @@ a:hover {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    
+    margin-top: 20px;
 }
